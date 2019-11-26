@@ -1,0 +1,39 @@
+{
+  "name": "eralp-frontend",
+  "version": "1.0.0",
+  "description": "eralp frontend assessment",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --mode development",
+    "prod": "webpack-dev-server --mode production --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisinancoban/MovieApp.git"
+  },
+  "author": "alisinancoban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisinancoban/MovieApp/issues"
+  },
+  "homepage": "https://github.com/alisinancoban/MovieApp#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.0.0",
+    "exports-loader": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

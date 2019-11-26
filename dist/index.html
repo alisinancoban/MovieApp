@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f1b79a46ed.js"></script>
+</head>
+<body>
+    <div class="container-fluid" id="top">
+        
+        <div class="row top-image">
+            <img class="col-12 img-fluid" src="./src/img/back.jpg" alt="">
+        </div>
+            <div class="add">
+                <div class="add-container">
+                    <input type="text" class="input" placeholder="Bulmak istediğiniz filmin adını yazınız">
+                    <button class="btn add-btn d-none d-sm-none d-md-inline">Search <i class="fas fa-search"></i> </button>
+                    <button class="btn add-btn d-md-none d-sm-inline"><i class="fas fa-search"></i> </button>  <!-- <i class="ion-ios-search"></i> -->
+                </div>
+             </div>
+    </div>
+
+    <div id="movies" class="container-fluid px-md-2 px-lg-5">
+        <div class="row movie-list">
+
+        </div>
+    </div>
+    
+    <div id="template" hidden>
+        <div class="col-6 movie-card" id="_id">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 movie-image">
+                <img class="img-fluid d-block mx-auto" src="_src" alt="_alt">
+             </div>
+             <div class="col-md-12 col-lg-8 movie-description mt-2">
+                    <div class="row">
+                            <div class="col-10 movie-title">_title</div>
+                            <div class="col-2">
+                                <button type="button" class="btn btn-danger delete-btn">Sil</button>
+                            </div>
+                    </div>
+                <div class="movie-rating"><i class="fas fa-star"></i><span class="user-rate ml-1">_rate</span><span class="max-point">/10</span></div>
+                <div class="movie-language mt-4"><span class="fw-b">Dil:</span><span class="ml-1">_language</span></div>
+                <div class="movie-actors"><span class="fw-b">Oyuncular:</span><span class="ml-1">_actors</span><a href="#" class="bd-left ml-2 pl-2">Tüm Listeyi Gör<i class="fas fa-angle-double-right"></i></a></div>
+                <div class="movie-desc mt-3">_desc <a href="#" class="ml-1">Detaylar<i class="fas fa-angle-double-right"></i></a></div>
+             </div>
+             </div>
+        </div>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
